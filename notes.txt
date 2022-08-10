@@ -1,0 +1,28 @@
+1) how to create a file using command (touch)?so here adding two files.
+
+$ touch  test5.txt
+
+3-FORTWAYNE-PC+Admin@3-FortWayne-PC MINGW64 ~/Desktop/git demo (master)
+$ touch test6.txt
+
+3-FORTWAYNE-PC+Admin@3-FortWayne-PC MINGW64 ~/Desktop/git demo (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test5.txt
+        test6.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+3-FORTWAYNE-PC+Admin@3-FortWayne-PC MINGW64 ~/Desktop/git demo (master)
+$ git add  .
+
+3-FORTWAYNE-PC+Admin@3-FortWayne-PC MINGW64 ~/Desktop/git demo (master)
+$ git commit -m "create two file"
+[master 03f4382] create two file
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test5.txt
+ create mode 100644 test6.txt
+
+
